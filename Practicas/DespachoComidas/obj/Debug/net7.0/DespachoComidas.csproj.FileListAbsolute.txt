@@ -1,0 +1,15 @@
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/bin/Debug/net7.0/DespachoComidas
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/bin/Debug/net7.0/DespachoComidas.deps.json
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/bin/Debug/net7.0/DespachoComidas.runtimeconfig.json
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/bin/Debug/net7.0/DespachoComidas.dll
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/bin/Debug/net7.0/DespachoComidas.pdb
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.csproj.AssemblyReference.cache
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.GeneratedMSBuildEditorConfig.editorconfig
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.AssemblyInfoInputs.cache
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.AssemblyInfo.cs
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.csproj.CoreCompileInputs.cache
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.dll
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/refint/DespachoComidas.dll
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.pdb
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/DespachoComidas.genruntimeconfig.cache
+/home/ulises/dev/NetCore/Desarrollo-NET/DespachoComidas/obj/Debug/net7.0/ref/DespachoComidas.dll
