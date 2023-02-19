@@ -6,3 +6,9 @@ Practicas/HelloWorld/HelloWorld/Properties
 Practicas/HelloWorld/HelloWorld/App.config
 Practicas/HelloWorld/HelloWorld/HelloWorld.csproj
 *.exe
+
+# Archivos generados por compilacion y dependencias
+bin
+bin/*
+obj
+obj/*
