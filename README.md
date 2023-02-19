@@ -11,3 +11,8 @@ Se generara en la misma ruta un archivo "Program.exe", para ejecutarlo coloque e
 * Program
 
 Vera por consola su resultado
+
+
+# Repositorio para hacer una web 
+
+https://github.com/TallerDeLenguajes1/tl2-tp5-2022-Miguelch7
