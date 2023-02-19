@@ -5,3 +5,4 @@ Practicas/HelloWorld/HelloWorld/obj
 Practicas/HelloWorld/HelloWorld/Properties
 Practicas/HelloWorld/HelloWorld/App.config
 Practicas/HelloWorld/HelloWorld/HelloWorld.csproj
+*.exe
