@@ -1,4 +1,5 @@
 *.exe
+.vs*
 
 # Archivos generados por compilacion y dependencias
 bin

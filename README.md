@@ -1,5 +1,15 @@
 # Desarrollo-NET
 
+## Comandos Dotnet en PowerShell:
+
+### Clear un proyecto
+
+* dotnet new console
+
+### ejecutar un proyecto
+
+* dotnet run
+
 ## Comando en CMD para generar el ejecutable:
 
 Pararse en la ruta donde se encuentra el archivo *.cs a compilar , ejecutar:
