@@ -5,10 +5,10 @@ namespace CoreEscuela
     class Escuela
     {
         //Atributos por defecto son privados y protegidos
-        public string nombre;
-        public string direccion;
+        public string nombre = "";
+        public string direccion = "";
         public int añoFundacion;
-        public string director;
+        public string director = "";
 
         //Métodos
         public void Timbrar(){
