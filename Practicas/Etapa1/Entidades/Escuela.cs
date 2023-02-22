@@ -15,14 +15,15 @@ namespace CoreEscuela.Entidades
         public string Pais { get; set; }
         public string Ciudad { get; set; }
         public TiposEscuela TipoEscuela { get; set; }
-
+        public Curso[] Cursos { get; set; }
         //public Escuela(string nombre, int año) => (Nombre, AñoDeCreación) = (nombre, año);
 
-        public Escuela(string nombre, int año,  TiposEscuela tipo,  string pais = "", string ciudad = "")
+        public Escuela(string nombre, int año,  TiposEscuela tipo, string pais = "", string ciudad = "")
         {
             (Nombre, AñoDeCreación) = (nombre, año);
             Pais = pais;
             Ciudad = ciudad;
+            Cursos = new Curso[]{};
         }
 
         public override string ToString()
