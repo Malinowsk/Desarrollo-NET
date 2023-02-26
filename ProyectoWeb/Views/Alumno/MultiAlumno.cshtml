@@ -1,0 +1,18 @@
+﻿@model List<Alumno> //Definimos el modelo a usar en la plantilla, necesario para que sea Fuertemente tipado
+
+@{
+    ViewData["Title"] = "Informacion Alumno";
+    Layout = "Simple"; // Se hace por defecto si no se pone nada
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<strong>Desde la vista parcial</strong>
+
+<partial name="ListaObjetoEscuela"/>
+
+@*
+ViewBag y ViewData son la misma forma de acceder a los datos dinamicos de la clase
+*@
+
+

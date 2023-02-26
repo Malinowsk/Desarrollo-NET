@@ -1,0 +1,21 @@
+﻿@model Escuela //Definimos el modelo a usar en la plantilla
+
+@{
+    ViewData["Title"] = "Informacion Escuela";
+    Layout = "Simple"; // Se hace por defecto si no se pone nada
+}
+
+<h1>Escuela: @Model.Nombre</h1>
+<h2>Por supuesto, es publica</h2>
+<p><strong>Funcional desde: @Model.AñoDeCreación</strong></p>
+<h3>Tipo de escuela: @Model.TipoEscuela</h3>
+<address>
+    <p>Direccion:@Model.Dirección</p>
+    <p>Pais: @Model.Pais</p>
+    <p>Ciudad: @Model.Ciudad</p>
+</address>
+<p>@ViewBag.CosaDinamica</p>
+<p>@ViewData["CosaDinamica"]</p>
+<!-- ViewBag y ViewData son la misma forma de acceder a los datos dinamicos de la clase !>
+
+

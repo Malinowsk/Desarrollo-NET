@@ -56,3 +56,5 @@ static void Main(string[], args){
 # COMANDO
 dotnet dev-certs https --trust
 dotnet new mvc -o Proyecto
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
