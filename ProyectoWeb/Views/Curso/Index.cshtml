@@ -1,11 +1,12 @@
-﻿@model Alumno //Definimos el modelo a usar en la plantilla, necesario para que sea Fuertemente tipado
+﻿@model Curso //Definimos el modelo a usar en la plantilla, necesario para que sea Fuertemente tipado
 
 @{
-    ViewData["Title"] = "Informacion Alumno";
+    ViewData["Title"] = "Informacion Curso";
     Layout = "Simple"; // Se hace por defecto si no se pone nada
 }
 
 <h1>@ViewData["Title"]</h1>
+<h2>@ViewBag.MensajeExtra</h2>
 <strong>Desde la vista normal</strong>
 <h2>Nombre: @Model.Nombre</h2>
 <p>ID: @Model.Id</p>
