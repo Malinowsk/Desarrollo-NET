@@ -27,10 +27,14 @@ namespace ProyectoWeb.Controllers{
         }
         [HttpPost]
         public IActionResult Create(Curso curso){
+            //curso.Id=Guid.NewGuid().ToString();
             ViewBag.fecha = DateTime.Now;
-            if(ModelState.IsValid){
+            Console.WriteLine("antes");
+            if(!ModelState.IsValid){
+                Console.WriteLine("despues");
                 var escuela = _context.Escuelas.FirstOrDefault();
                 curso.EscuelaId = escuela.Id;
+                Console.WriteLine("despues despues");
                 _context.Cursos.Add(curso);
                 _context.SaveChanges();
                 ViewBag.MensajeExtra ="cualqueir cosa";
