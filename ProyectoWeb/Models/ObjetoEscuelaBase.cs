@@ -9,7 +9,7 @@ namespace ProyectoWeb.Models
         public virtual string Nombre { get; set; }
 
         public ObjetoEscuelaBase(){
-
+             this.Id=Guid.NewGuid().ToString();
         }
 
         public override string ToString(){

@@ -25,25 +25,24 @@ namespace ProyectoWeb.Controllers{
             
             return View(); // si no se especifica una vista, se toma por defecto la vista con el nombre de la funcion Index()
         }
+
         [HttpPost]
         public IActionResult Create(Curso curso){
-            //curso.Id=Guid.NewGuid().ToString();
+            curso.Id=Guid.NewGuid().ToString();
             ViewBag.fecha = DateTime.Now;
-            Console.WriteLine("antes");
-            if(!ModelState.IsValid){
-                Console.WriteLine("despues");
+            if(ModelState.IsValid){
                 var escuela = _context.Escuelas.FirstOrDefault();
                 curso.EscuelaId = escuela.Id;
-                Console.WriteLine("despues despues");
                 _context.Cursos.Add(curso);
                 _context.SaveChanges();
-                ViewBag.MensajeExtra ="cualqueir cosa";
+                ViewBag.MensajeExtra ="Curso Creado";
                 return View("Index", curso); // si no se especifica una vista, se toma por defecto la vista con el nombre de la funcion Index()
             }
             else{
                 return View(curso); // si no se especifica una vista, se toma por defecto la vista con el nombre de la funcion Index()
             }
         }
+
         public IActionResult MultiCurso(){
             ViewBag.CosaDinamica = "La Monja"; // ViewBag es una especie e objeto predefinido en C#
             ViewBag.fecha = DateTime.Now;
